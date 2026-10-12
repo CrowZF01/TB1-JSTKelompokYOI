@@ -111,7 +111,7 @@ Kelompok memakai bantuan AI (Gemini, Claude) untuk memberi saran format struktur
 |---|---|
 | Felix Benedictus Setiawan | Eksperimen delapan konfigurasi, evaluasi dan visualisasi|
 | Rivano Putra Samudra | Implementasi dan hasil Perceptron|
-| Dita Pranata Tandisau | Persiapan dan pemeriksaan data, split dan standardisasi; |
+| Dita Pranata Tandisau | Persiapan dan pemeriksaan data, split dan standardisasi |
 | Devon Novan Surya Putra | Implementasi dan hasil ADALINE|
 
 ## Referensi
@@ -121,4 +121,4 @@ Kelompok memakai bantuan AI (Gemini, Claude) untuk memberi saran format struktur
 - Gupta, V., dkk. (2025). Customer segmentation using machine learning. *IJIRT*, 11(11). https://ijirt.org/publishedpaper/IJIRT176215_PAPER.pdf
 - Raschka, S. *Adaline: Adaptive linear neuron classifier*. Dokumentasi mlxtend. https://rasbt.github.io/mlxtend/user_guide/classifier/Adaline/
 - Scikit-learn developers. *scikit-learn API Reference*. https://scikit-learn.org/stable/api/index.html
-- [ISI: dataset, sesuai entri di daftar pustaka laporan]
+- https://www.kaggle.com/code/ahmedwaleed1903/mall-customer
