@@ -1,6 +1,6 @@
 # TB1-JSTKelompokXX: Klasifikasi Muda vs Tua dengan Perceptron dan ADALINE
 
-Tugas Besar 1 mata kuliah **Jaringan Syaraf Tiruan (IT6053)**
+Tugas Besar 1 mata kuliah **Jaringan Syaraf Tiruan (IT6053)**, Kelompok XX
 
 ## Kasus
 
@@ -21,8 +21,8 @@ Kelas positif: **Muda (+1)**.
 
 | Berkas | Isi |
 |---|---|
-| [TB1_KelompokYOI.ipynb](TB1_KelompokXX.ipynb) | Notebook lengkap: kode, penjelasan, keluaran eksperimen, dan perhitungan manual |
-| [TB1_KelompokYOI.pdf](TB1_KelompokXX.pdf) | Laporan |
+| [TB1_KelompokXX.ipynb](TB1_KelompokXX.ipynb) | Notebook lengkap: kode, penjelasan, keluaran eksperimen, dan perhitungan manual |
+| [TB1_KelompokXX.pdf](TB1_KelompokXX.pdf) | Laporan |
 | [dataset.csv](dataset.csv) | Data yang dipakai dalam eksperimen |
 | [requirements.txt](requirements.txt) | Dependensi dan versi |
 | [Presentasi_TB1.pdf](Presentasi_TB1.pdf) | Slide presentasi |
@@ -30,7 +30,7 @@ Kelas positif: **Muda (+1)**.
 
 ## Dataset
 
-- **Berkas:** `dataset.csv`
+- **Berkas:** `dataset.csv` (asal: `Mall_Customer.csv`, isi tidak diubah)
 - **Sumber:** https://www.kaggle.com/code/ahmedwaleed1903/mall-customer
 - **Jumlah observasi:** 200 baris. Tidak ada *missing value* dan tidak ada data duplikat.
 
@@ -50,7 +50,7 @@ Kelas positif: **Muda (+1)**.
 
 ## Cara Menjalankan
 
-**Versi:** Python [ISI, dari sel versi di notebook]. Versi paket lengkap ada di `requirements.txt`.
+**Versi:** Python 3.14.7. Versi paket ada di `requirements.txt`.
 
 ```bash
 # 1. Unduh repository ini
@@ -63,12 +63,9 @@ python -m venv venv
 
 # 3. Pasang dependensi
 pip install -r requirements.txt
-
-# 4. Buka notebook
-jupyter notebook TB1_KelompokXX.ipynb
 ```
 
-Klik **Run All**. Notebook membaca `dataset.csv` dari folder yang sama dan dapat dijalankan dari awal sampai akhir tanpa berkas tambahan.
+Buka `TB1_KelompokXX.ipynb` dengan Jupyter Notebook, JupyterLab, atau VS Code, lalu jalankan **Restart & Run All**. Notebook membaca `dataset.csv` dari folder yang sama dan dapat dijalankan dari awal sampai akhir tanpa berkas tambahan.
 
 ## Pengaturan Eksperimen
 
@@ -105,20 +102,22 @@ Baseline kelas mayoritas pada data uji: **57,50%**.
 
 Kelompok memakai bantuan AI (Gemini, Claude) untuk memberi saran format struktur laporan dan sebagai rekan diskusi untuk memastikan narasi pembahasan sesuai dengan hasil. Penulisan kode implementasi Perceptron, ADALINE, dan eksperimen di notebook juga dibantu AI.
 
+**Cara verifikasi:** notebook dijalankan ulang dari awal dan angka pada laporan dicocokkan dengan keluaran notebook; rumus dan aturan pembaruan pada kode dicocokkan dengan ketentuan panduan penugasan; perhitungan manual dibandingkan dengan keluaran kode; sumber pustaka diperiksa pada sumber aslinya.
+
 ## Kontribusi Anggota
 
 | Nama | Kontribusi |
 |---|---|
-| Felix Benedictus Setiawan | Eksperimen delapan konfigurasi, evaluasi dan visualisasi|
-| Rivano Putra Samudra | Implementasi dan hasil Perceptron|
+| Felix Benedictus Setiawan | Eksperimen delapan konfigurasi, evaluasi dan visualisasi |
+| Rivano Putra Samudra | Implementasi dan hasil Perceptron |
 | Dita Pranata Tandisau | Persiapan dan pemeriksaan data, split dan standardisasi |
-| Devon Novan Surya Putra | Implementasi dan hasil ADALINE|
+| Devon Novan Surya Putra | Implementasi dan hasil ADALINE |
 
 ## Referensi
 
 - Rosenblatt, F. (1958). The perceptron: A probabilistic model for information storage and organization in the brain. *Psychological Review*, 65(6), 386-408. https://doi.org/10.1037/h0042519
 - Widrow, B., & Hoff, M. E. (1960). Adaptive switching circuits. *IRE WESCON Convention Record*, Part 4, 96-104. https://isl.stanford.edu/~widrow/papers/c1960adaptiveswitching.pdf
 - Gupta, V., dkk. (2025). Customer segmentation using machine learning. *IJIRT*, 11(11). https://ijirt.org/publishedpaper/IJIRT176215_PAPER.pdf
-- Raschka, S. *Adaline: Adaptive linear neuron classifier*. Dokumentasi mlxtend. https://rasbt.github.io/mlxtend/user_guide/classifier/Adaline/
-- Scikit-learn developers. *scikit-learn API Reference*. https://scikit-learn.org/stable/api/index.html
-- https://www.kaggle.com/code/ahmedwaleed1903/mall-customer
+- Raschka, S. (t.t.). *Adaline: Adaptive linear neuron classifier*. Dokumentasi mlxtend. https://rasbt.github.io/mlxtend/user_guide/classifier/Adaline/ (diakses 9 Oktober 2026)
+- Scikit-learn developers. (t.t.). *scikit-learn API reference*. https://scikit-learn.org/stable/api/index.html
+- [ISI pembuat dan tahun]. *Mall customer segmentation data* [Dataset]. Kaggle. https://www.kaggle.com/code/ahmedwaleed1903/mall-customer
