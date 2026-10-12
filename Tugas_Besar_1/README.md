@@ -109,10 +109,10 @@ Kelompok memakai bantuan AI (Gemini, Claude) untuk memberi saran format struktur
 
 | Nama | Kontribusi |
 |---|---|
-| Felix Benedictus Setiawan | Eksperimen delapan konfigurasi, evaluasi dan visualisasi; menulis bab VI-VIII, README, dan repository |
-| Rivano Putra Samudra | Implementasi dan hasil Perceptron, perhitungan manual Perceptron; menulis bab IV.B dan pembahasan Perceptron |
+| Felix Benedictus Setiawan | Eksperimen delapan konfigurasi, evaluasi dan visualisasi|
+| Rivano Putra Samudra | Implementasi dan hasil Perceptron|
 | Dita Pranata Tandisau | Persiapan dan pemeriksaan data, split dan standardisasi; |
-| Devon Novan Surya Putra | Implementasi dan hasil ADALINE, perhitungan manual ADALINE; menulis bab IV.C dan pembahasan ADALINE |
+| Devon Novan Surya Putra | Implementasi dan hasil ADALINE|
 
 ## Referensi
 
